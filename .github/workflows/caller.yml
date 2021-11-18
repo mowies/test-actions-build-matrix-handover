@@ -6,4 +6,4 @@ jobs:
   call-workflow:
     uses: mowies/test-actions-build-matrix-handover/.github/workflows/called.yml@main
     with:
-      matrix: "{\"config\": \"{\"string\":\"hello\"}, {\"string\":\"world\"}}\"}"
+      matrix: '{"config": [{"string":"hello"}, {"string":"world"}]}'
